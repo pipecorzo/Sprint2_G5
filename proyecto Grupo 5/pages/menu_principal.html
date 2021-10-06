@@ -1,37 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu Principal</title>
 </head>
+
 <body>
     <header>
         <h2>El Paisa. Compras y Ventas on line</h2>
     </header>
+
     <fieldset>
-        <h3>LOS PRODUCTOS MÁS COMPRADOS</h3>
-        <img src="../Imagenes/imagenes.png" alt="">
-    </fieldset>
-    <fieldset>
-        <h3>LAS MEJORES OFERTAS</h3>
-        <img src="../Imagenes/ofertas.png" alt="">
+        <form action="../pages/Pago_final.html" method="post">
+            <h3>LOS PRODUCTOS MÁS COMPRADOS</h3>
+            <h3>
+                Por favor selecciona los productos que deseas adquirir y luego haz
+                click en el botón "pagar"
+            </h3>
+            <input type="checkbox" id="Celular" name="articulo" value="Celular" tabindex="1" />
+            <label ali for="Celular">Celular </label>
+            <img src="../Imagenes/celular.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="portatil" name="articulo" value="portatil" tabindex="2" />
+            <label for="portatil">Portátil </label>
+            <img src="../Imagenes/portatil.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="televisor" name="articulo" value="televisor" tabindex="3" />
+            <label for="televisor">televisor </label>
+            <img src="../Imagenes/televisor.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Bicicleta" name="articulo" value="Bicicleta" tabindex="4" />
+            <label for="Bicicleta">Bicicleta </label>
+            <img src="../Imagenes/bicicleta.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Ollas" name="articulo" value="Ollas" tabindex="5" />
+            <label for="Ollas">Ollas </label>
+            <img src="../Imagenes/ollas.png" alt="" />
+            <br />
+
+            <h3>LAS MEJORES OFERTAS</h3>
+
+            <br />
+
+            <input type="checkbox" id="OfertaTV" name="articulo" value="OfertaTV" tabindex="6" />
+            <label for="OfertaTV">OfertaTV </label>
+            <img src="../Imagenes/tv oferta.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="NeveraOferta" name="articulo" value="NeveraOferta" tabindex="7" />
+            <label for="NeveraOferta">NeveraOferta </label>
+            <img src="../Imagenes/nevera oferta.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Microfono" name="articulo" value="Microfono" tabindex="8" />
+            <label for="Microfono">Microfono </label>
+            <img src="../Imagenes/microfono oferta.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Herramientas" name="articulo" value="Herramientas" tabindex="9" />
+            <label for="Herramientas">Herramientas </label>
+            <img src="../Imagenes/herramienta oferta.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Loreal" name="articulo" value="Loreal" tabindex="10" />
+            <label for="Loreal">Loreal </label>
+            <img src="../Imagenes/loreal.png" alt="" />
+            <br />
+
+            <input type="checkbox" id="Maquillaje" name="articulo" value="Maquillaje" tabindex="11" />
+            <label for="Maquillaje">Maquillaje </label>
+            <img src="../Imagenes/maquillaje.png" alt="" />
+            <br />
+            <button type="submit">Pagar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+        <form action="../index.html" method="post">
+            <button type="submit">Salir</button>
+        </form>
     </fieldset>
     <fieldset>
         <h3>Elija su producto con confianza y la garantía de su tienda amiga</h3>
     </fieldset>
 </body>
 <footer>
-    <h5>
-      Ubicanos: 
-      Calle 23 #4-56 Sector los Choros
-      Cúcuta - Colombia
-    </h5>
-    <h5>
-      Teléfono:
-      +57-60-5836641
-      +57-60-5889977
-    </h5>
-  </footer>
+    <h5>Ubicanos: Calle 23 #4-56 Sector los Choros Cúcuta - Colombia</h5>
+    <h5>Teléfono: +57-60-5836641 +57-60-5889977</h5>
+</footer>
+
 </html>
